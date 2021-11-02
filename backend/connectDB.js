@@ -3,7 +3,8 @@ import mongoose from 'mongoose';
 const connect = async () => {
   try {
     const conn = await mongoose.connect(
-     
+           'mongodb+srv://password:password@cluster0.k7xfp.mongodb.net/todo',
+
       {
         useUnifiedTopology: true,
         useNewUrlParser: true,
